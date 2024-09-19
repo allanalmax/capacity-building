@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/async programming/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/async programming/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/async programming/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/classes advanced continuation/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/classes advanced continuation/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/classes advanced continuation/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/classes/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/classes/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/classes/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/errors_exceptions/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/errors_exceptions/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/errors_exceptions/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_application_1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_application_1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/flutter_application_1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/mixins-extensions/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/mixins-extensions/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/mixins-extensions/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/simple_commerce/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/simple_commerce/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/simple_commerce/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/weather app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/weather app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter/weather app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
