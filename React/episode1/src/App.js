@@ -50,31 +50,37 @@ function App() {
     { name: "Neptune", isGasPlanet: true },
     { name: "Uranus", isGasPlanet: true },
   ];
-  // return (
-  //   <div className={styles.App}>
-  //     {/*{users.map((user) => {*/}
-  //     {/*  return <User name={user.name} age={user.age} />;*/}
-  //     {/*})}*/}
-  //
-  //     {/*<Planets*/}
-  //     {/*    {planets.map((planet) => {*/}
-  //     {/*      // <Planets planet.isGasPlanet && {planet.name}/>*/}
-  //     {/*      // return planet.isGasPlanet && <h1>{planet.name}</h1>;*/}
-  //     {/*      {planet.isGasPlanet ? name={planet.name}}*/}
-  //     {/*    })}*/}
-  //     {/*/>*/}
-  //
-  //     {/*{planets.map((planet) => {*/}
-  //     {/*  <Planets*/}
-  //     {/*    key={planet.name}*/}
-  //     {/*    name={planets.name}*/}
-  //     {/*    isGasPlanet={planets.isGasPlanet}*/}
-  //     {/*  />;*/}
-  //     {/*})}*/}
-  //
-  //     {planets.map((planet) => !planet.isGasPlanet && <h2>{planet.name}</h2>)}
-  //   </div>
-  // );
+  return (
+    <div className={styles.App}>
+      {planets.map((planet, index) => (
+        <Planets
+          key={index}
+          name={planet.name}
+          isGasPlanet={planet.isGasPlanet}
+        />
+      ))}
+
+      {/*{users.map((user) => {*/}
+      {/*  return <User name={user.name} age={user.age} />;*/}
+      {/*})}*/}
+
+      {/*<Planets*/}
+      {/*    {planets.map((planet) => {*/}
+      {/*      // <Planets planet.isGasPlanet && {planet.name}/>*/}
+      {/*      // return planet.isGasPlanet && <h1>{planet.name}</h1>;*/}
+      {/*      {planet.isGasPlanet ? name={planet.name}}*/}
+      {/*    })}*/}
+      {/*/>*/}
+
+      {/*{planets.map((planet,index) => {*/}
+      {/*  <Planets*/}
+      {/*    key={index}*/}
+      {/*    name={planets.name}*/}
+      {/*    isGasPlanet={planets.isGasPlanet}*/}
+      {/*  />;*/}
+      {/*})}*/}
+    </div>
+  );
 
   const [age, setAge] = useState(0);
 
@@ -103,43 +109,43 @@ function App() {
     setCount(0);
   };
 
-  return (
-    <div className={styles.App}>
-      {/*{age}*/}
-      {/*<button onClick={increaseAge}>Increase age</button>*/}
-
-      {/*<input type="text" onChange={handleInputChange} />*/}
-      {/*{inputValue}*/}
-
-      {/*<button*/}
-      {/*  onClick={() => {*/}
-      {/*    // setShowText(!showText);*/}
-      {/*    setTextColor(textColor === "black" ? "red" : "black");*/}
-      {/*  }}*/}
-      {/*>*/}
-      {/*  Show/Hide*/}
-      {/*</button>*/}
-      {/*/!*{showText && <h1>Allan</h1>}*!/*/}
-      {/*<h1 style={{ color: textColor }}>Allan</h1>*/}
-
-      <button
-        onClick={() => {
-          increaseCount();
-        }}
-      >
-        Increase
-      </button>
-      <button onClick={() => decreaseCount()}>Decrease</button>
-      <button
-        onClick={() => {
-          setToZero();
-        }}
-      >
-        Set to zero
-      </button>
-      {count}
-    </div>
-  );
+  // return (
+  //   <div className={styles.App}>
+  //     {/*{age}*/}
+  //     {/*<button onClick={increaseAge}>Increase age</button>*/}
+  //
+  //     {/*<input type="text" onChange={handleInputChange} />*/}
+  //     {/*{inputValue}*/}
+  //
+  //     {/*<button*/}
+  //     {/*  onClick={() => {*/}
+  //     {/*    // setShowText(!showText);*/}
+  //     {/*    setTextColor(textColor === "black" ? "red" : "black");*/}
+  //     {/*  }}*/}
+  //     {/*>*/}
+  //     {/*  Show/Hide*/}
+  //     {/*</button>*/}
+  //     {/*/!*{showText && <h1>Allan</h1>}*!/*/}
+  //     {/*<h1 style={{ color: textColor }}>Allan</h1>*/}
+  //
+  //     <button
+  //       onClick={() => {
+  //         increaseCount();
+  //       }}
+  //     >
+  //       Increase
+  //     </button>
+  //     <button onClick={() => decreaseCount()}>Decrease</button>
+  //     <button
+  //       onClick={() => {
+  //         setToZero();
+  //       }}
+  //     >
+  //       Set to zero
+  //     </button>
+  //     {count}
+  //   </div>
+  // );
 }
 
 // normal JS function
