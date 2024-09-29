@@ -91,23 +91,9 @@ function App() {
   // const [inputValue, setInputValue] = useState("");
   // const [textColor, setTextColor] = useState("black");
 
-  const [count, setCount] = useState(0);
-
   // const handleInputChange = (event) => {
   //   setInputValue(event.target.value);
   // };
-
-  const increaseCount = () => {
-    setCount(count + 1);
-  };
-
-  const decreaseCount = () => {
-    setCount(count - 1);
-  };
-
-  const setToZero = () => {
-    setCount(0);
-  };
 
   // return (
   //   <div className={styles.App}>
@@ -128,22 +114,6 @@ function App() {
   //     {/*/!*{showText && <h1>Allan</h1>}*!/*/}
   //     {/*<h1 style={{ color: textColor }}>Allan</h1>*/}
   //
-  //     <button
-  //       onClick={() => {
-  //         increaseCount();
-  //       }}
-  //     >
-  //       Increase
-  //     </button>
-  //     <button onClick={() => decreaseCount()}>Decrease</button>
-  //     <button
-  //       onClick={() => {
-  //         setToZero();
-  //       }}
-  //     >
-  //       Set to zero
-  //     </button>
-  //     {count}
   //   </div>
   // );
 }

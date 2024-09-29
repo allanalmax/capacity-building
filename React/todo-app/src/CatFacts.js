@@ -14,6 +14,7 @@ export const CatFacts = (props) => {
   useEffect(() => {
     fetchCatFact();
   }, []);
+
   return (
     <div>
       <button onClick={fetchCatFact}>Generate Fact</button>
