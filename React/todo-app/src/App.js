@@ -16,6 +16,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { SampleForm } from "./pages/SampleForm";
 import { Toggle } from "./pages/Toggle";
 import { Counter } from "./pages/Counter";
+import { Person } from "./pages/Person";
 
 export const AppContext = createContext();
 
@@ -38,6 +39,18 @@ function App() {
             <Route path="/form" element={<SampleForm />} />
             <Route path="toggle" element={<Toggle />} />
             <Route path="/counter" element={<Counter />} />
+            <Route
+              path={"/person"}
+              element={
+                <Person
+                  name={"Allan"}
+                  email={"email@domain.com"}
+                  age={21}
+                  isMarried={true}
+                  friends={["Jessica", "Jerry", "Jasmine"]}
+                />
+              }
+            />
             <Route path="/*" element={<h3>Page not found</h3>} />
           </Routes>
         </Router>

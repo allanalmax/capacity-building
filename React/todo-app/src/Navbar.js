@@ -11,6 +11,7 @@ export const Navbar = () => {
       <Link to="/form">Form</Link>
       <Link to="/toggle">TogglePage</Link>
       <Link to="/counter">Counter Page</Link>
+      <Link to="/person">Person</Link>
     </div>
   );
 };
